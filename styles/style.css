@@ -1,0 +1,37 @@
+/* Navigation var styles */
+nav{
+    color: #FFFFFF;
+}
+.container{
+    display: flex;
+    justify-content: right;
+    background-color: #FFFFFF;
+
+}
+#logo{
+    margin-right: 500px;
+    padding-top: 20px;
+}
+nav>ul{
+    display: flex;
+    list-style: none; 
+    margin-right: 100px;  
+}
+nav li{
+    padding: 20px;
+}
+
+nav li>a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color:#D3D2D2;
+}
+nav li>a:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+/* End Navigation var styles */
+
+
