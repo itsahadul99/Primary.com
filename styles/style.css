@@ -70,12 +70,26 @@ nav li>a:hover{
     font-weight: 300;
 }
 .first-section-end{
-    margin-top: 100px;
+    margin-bottom: 0;
+    margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
     justify-items: flex-start;
     justify-content: space-between;
     display: flex;   
+}
+.first-section-end > div{
+    text-align: center;
+}
+.first-section-end > div i{
+    font-size: 50px;
+    color: #F65F6C;
+    margin-top: 0;
+}
+.first-section-end > div h1,h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: #474648;  
 }
 
 
