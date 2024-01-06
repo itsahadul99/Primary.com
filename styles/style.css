@@ -91,5 +91,66 @@ nav li>a:hover{
     font-weight: 200;
     color: #474648;  
 }
-
+/* second section style start */
+.second-section{
+    background-color: #F7F7F7;
+}
+#button{
+    margin-top: 20px;
+    margin-left: 720px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color:black;
+    background-color:#FFFFFF;
+    border: 1px solid white;
+    font-family: 'Times New Roman',sans-serif;
+    font-weight: 200;
+}
+.second-section h3{
+    padding-top: 50px;
+}
+.second-section h3,p{
+    text-align: center;
+    color:#474648;
+    font-family: 'Times New Roman',  sans-serif;
+    font-weight: 200;
+}
+.second-section-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    justify-content: center;
+}
+.second-section-container p{
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 200;
+    color: #474648;
+    padding: 0;
+    font-size: 14px;
+}
+.second-section-container h4{
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: #474648;
+    font-weight: 200;
+    font-size: 18px;
+}
+#section-hr{
+    width: 50px;
+    text-align: center;
+    border-bottom:2px solid #F65F6C;
+    border-radius: 100px;
+}
+.second-section-container div h4,p,img{
+    background-color: #FFFFFF;
+}
+.second-section-container> div{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+/* Second-section styles end */
 
