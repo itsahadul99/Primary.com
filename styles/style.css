@@ -175,12 +175,6 @@ h5 {
     font-family: 'Times New Roman', sans-serif;
     font-weight: 200;
 }
-
-
-
-.second-section h3,
-p {}
-
 .second-section-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
