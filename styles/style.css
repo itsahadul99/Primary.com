@@ -92,7 +92,7 @@ nav li>a:hover {
     display: flex;
     height: 80vh;
     text-align: center;
-    background-image: url(/imges/slide.jpg);
+    background-image: url(./imges/slide.jpg);
 }
 
 .comon-p {
