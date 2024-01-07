@@ -1,130 +1,197 @@
 /* Navigation var styles */
-nav{
+nav {
     color: #FFFFFF;
 }
-.container{
-    display: flex;
+
+nav>ul {
+    margin-top: 0;
     justify-content: right;
-    background-color: #FFFFFF;
-
-}
-#logo{
-    margin-right: 500px;
-    padding-top: 20px;
-}
-nav>ul{
     display: flex;
-    list-style: none; 
-    margin-right: 100px;  
-}
-nav li{
-    padding: 20px;
+    list-style: none;
+    margin-right: 10px;
 }
 
-nav li>a{
+.buy-item {
+    border-radius: 100%;
+    width: 8px;
+    background-color: #474648a6;
+    margin-left: 1024px;
+    cursor: pointer;
+    margin-top: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0px;
     text-align: right;
+}
+
+nav li>a i {
+    font-size: 20px;
+    color: #474648a6;
+}
+
+nav li>a {
     text-decoration: none;
     font-size: 20px;
     margin-right: 10px;
-    color:#D3D2D2;
+    color: #D3D2D2;
+    padding: 0 20px;
 }
-nav li>a:hover{
+
+nav li>a:hover {
     background-color: whitesmoke;
     border-radius: 5px;
 }
+
+.nav-container {
+    width: 100%;
+}
+
+/* goblaly css */
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.third-rapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    padding-top: 50px;
+
+}
+
+.section-title,
+.section-des {
+    text-align: center;
+    color: #474648;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 200;
+}
+
+.comon-button {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 455px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: black;
+    background-color: #b7b9bd45;
+    border: 1px solid white;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 200;
+}
+
 /* End Navigation var styles */
 /* first-section styles start */
-.first-section{
-    margin-left: 0;
-    margin-top: 0;
-    padding-top: 0;
-    padding-left: 0;
+.first-section {
     display: flex;
     height: 80vh;
     text-align: center;
     background-image: url(/imges/slide.jpg);
 }
-.text{
+
+.comon-p {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 200;
+    color: #474648;
+    padding: 0;
+    font-size: 12px;
+}
+
+.text {
     margin-top: 15vh;
     margin-left: 35%;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     height: 800px;
 }
-.text> button{
+
+.button-first {
     color: white;
     padding: 20px 40px;
     background-color: #b7b9bd45;
     border: 1px solid white;
     font-weight: 600px;
 }
-.text > h4{
+
+.text>h4 {
     font-weight: 100;
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 200;
 }
-.text> h1{
+
+.text>h1 {
     margin-top: 0;
     font-size: 48px;
     font-weight: 300;
 }
-.first-section-end{
+
+.first-section-end {
     margin-bottom: 0;
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
     justify-items: flex-start;
     justify-content: space-between;
-    display: flex;   
+    display: flex;
 }
-.first-section-end > div{
+
+.first-section-end>div {
     text-align: center;
 }
-.first-section-end > div i{
+
+.first-section-end>div i {
     font-size: 50px;
     color: #F65F6C;
     margin-top: 0;
 }
-.first-section-end > div h1,h5{
+
+.first-section-end>div h1,
+h5 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
-    color: #474648;  
+    color: #474648;
 }
+
 /* second section style start */
-.second-section{
+.second-section {
     background-color: #F7F7F7;
 }
-#button{
+
+#button {
     margin-top: 20px;
-    margin-left: 720px;
+    margin-left: 650px;
     margin-bottom: 20px;
     padding: 10px;
-    color:black;
-    background-color:#FFFFFF;
+    color: black;
+    background-color: #FFFFFF;
     border: 1px solid white;
-    font-family: 'Times New Roman',sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-weight: 200;
 }
-.second-section h3{
-    padding-top: 50px;
-}
-.second-section h3,p{
-    text-align: center;
-    color:#474648;
-    font-family: 'Times New Roman',  sans-serif;
-    font-weight: 200;
-}
-.second-section-container{
+
+
+
+.second-section h3,
+p {}
+
+.second-section-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
     margin-left: 450px;
     margin-right: 450px;
     justify-content: center;
 }
-.second-section-container p{
+
+.second-section-container p {
     text-align: center;
     font-family: 'Times New Roman', sans-serif;
     font-weight: 200;
@@ -132,25 +199,206 @@ nav li>a:hover{
     padding: 0;
     font-size: 14px;
 }
-.second-section-container h4{
+
+.second-section-container h4 {
     text-align: center;
     font-family: 'Times New Roman', sans-serif;
     color: #474648;
     font-weight: 200;
     font-size: 18px;
 }
-#section-hr{
+
+#section-hr {
     width: 50px;
     text-align: center;
-    border-bottom:2px solid #F65F6C;
+    border-bottom: 2px solid #F65F6C;
     border-radius: 100px;
 }
-.second-section-container div h4,p,img{
+
+.second-section-container>div h4,
+img {
     background-color: #FFFFFF;
 }
-.second-section-container> div{
+
+.second-section-container>div {
     margin-top: 20px;
     background-color: #FFFFFF;
 }
-/* Second-section styles end */
 
+/* Second-section styles end */
+/* third section styles start */
+.third-section-header {
+    background-image: url(/imges/parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 300px; */
+}
+
+.third-section-head-container {
+    display: grid;
+    /* justify-content: space-around; */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.third-section-head-container h1,
+i {
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.third-section-head-container p {
+    color: #FFFFFF;
+    background-color: #47464800;
+    margin-right: 300px;
+}
+
+.third-service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+#header-hr {
+    width: 50px;
+    border-bottom: 2px solid red;
+    border-radius: 20px;
+}
+
+#service {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: #474648;
+    font-weight: 200;
+}
+
+.service {
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-around;
+
+}
+
+.service i {
+    padding-left: 10px;
+    color: red;
+    font-size: 40px;
+}
+
+.service>div {
+    padding-left: 20px;
+}
+
+/* third section styles end */
+/* forth style start */
+.forth-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.forth-customer {
+    display: flex;
+    align-items: center;
+}
+
+.name h3 {
+    font-family: 'Times New Roman', sans-serif;
+    color: #474648;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.name {
+    margin-left: 10px;
+
+}
+
+.name p {
+    text-align: left;
+
+}
+
+.five h3 {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: #474648;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.five-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.five-container>div h1 {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: #474648;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #333333;
+}
+
+.fotter-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-p {
+    width: 200px;
+}
+
+.social-link-footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-link-footer>a i {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 100px;
+    background-color: #333333;
+    font-weight: 100;
+}
+
+.fotter-container>div img {
+    background-color: #333333;
+}
+
+.fotter-icon>a {
+    border: 2px solid white;
+}
+
+.fotter-icon>i {
+    font-size: 10px;
+    background-color: #333333;
+
+}
+
+.catagories>p span {
+    margin-left: 100px;
+
+}
+
+.fotter-container h1 {
+    color: #D3D2D2;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: #79767c;
+    font-weight: 200;
+}
+
+.fotter-container div h1 {
+    text-align: left;
+}
