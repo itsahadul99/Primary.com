@@ -92,7 +92,7 @@ nav li>a:hover {
     display: flex;
     height: 80vh;
     text-align: center;
-    background-image:url(/imges/slide.jpg);
+    background-image:url(../imges/slide.jpg);
 }
 
 .comon-p {
@@ -222,7 +222,7 @@ img {
 /* Second-section styles end */
 /* third section styles start */
 .third-section-header {
-    background-image: url(/imges/parallax.jpg);
+    background-image: url('../imges/slider2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 300px; */
